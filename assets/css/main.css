@@ -30,6 +30,8 @@
 		list-style: none;
 	}
 
+
+
 	blockquote, q {
 		quotes: none;
 	}
@@ -1970,7 +1972,11 @@
 		}
 
 /* Icon */
-
+#project-picture-1,
+#project-picture-2,
+#project-picture-3 {
+	margin-top: 60px;
+}
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -3133,5 +3139,4 @@
 				margin-left: 0;
 				padding-left: 0;
 			}
-
 	}
