@@ -50,6 +50,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	#resume:hover {
+		color: gray;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1580,14 +1584,13 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: #49bf9d;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: gray !important;
 			text-decoration: none;
 		}
 
@@ -1977,6 +1980,7 @@
 #project-picture-3 {
 	margin-top: 60px;
 }
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
