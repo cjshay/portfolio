@@ -1587,10 +1587,15 @@
 .		color: #49bf9d;
 		text-decoration: none;
 	}
-
-		a:hover {
+body a {
+	color: #49bf9d; 
+}
+body a:hover {
+	color: gray;
+}
+footer a:hover {
 			border-bottom-color: transparent;
-			color: gray !important;
+			color: #49bf9d !important;
 			text-decoration: none;
 		}
 
